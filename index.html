@@ -70,14 +70,40 @@
     </style>
 </head>
 <body class="bg-white text-gray-800">
+    <!-- Sticky Top Banner -->
+    <div class="sticky top-0 z-50 bg-green-600 text-white text-center py-2 font-bold text-lg shadow-md">
+        BAYAR DI TEMPAT - Cek Barang Dulu
+    </div>
+    
     <!-- Hero Section -->
     <div class="hero-image" style="background-image: url('https://cdn.orderonline.id/uploads/images_5593861755244886493.jpg');">
         <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center px-4">
             <div class="text-center text-white">
                 <h1 class="text-3xl md:text-4xl font-bold mb-2">Tidur Nyenyak, Bangun Tanpa Pegal</h1>
                 <p class="text-lg mb-4">Investasi kesehatan tidur untuk kebugaran aktivitas sehari-hari</p>
-                <div class="bg-white text-blue-500 inline-block px-4 py-2 rounded-full mb-6">
-                    <span class="font-bold text-2xl">Rp190.000</span>
+                <div class="bg-gradient-to-r from-teal-500 to-blue-500 text-white inline-block px-6 py-3 rounded-lg shadow-lg mb-6 transform transition hover:scale-105">
+                    <div class="text-center">
+                        <div class="flex justify-center items-baseline space-x-2">
+                            <span class="font-bold text-3xl">Rp190.000</span>
+                            <span class="text-sm line-through opacity-80">Rp270.000</span>
+                        </div>
+                        <div class="mt-1">
+                            <span class="inline-block bg-yellow-400 text-black text-xs font-bold px-2 py-1 rounded-full animate-pulse">
+                                PROMO SPESIAL!
+                            </span>
+                        </div>
+                        <div class="text-xs font-semibold mt-1 bg-white bg-opacity-20 px-2 py-1 rounded-full">
+                            Hanya untuk 200 pembeli pertama
+                        </div>
+                        <div class="text-xs mt-2 font-bold text-white bg-green-600 px-2 py-1 rounded-full">
+                            <i class="fas fa-money-bill-wave mr-1"></i> BAYAR DI TEMPAT - Cek Barang Dulu
+                        </div>
+                        <div class="text-xs mt-1">
+                            <span class="inline-block bg-red-500 text-white px-2 py-0.5 rounded">
+                                Hemat Rp80.000
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex flex-col space-y-3">
                     <button onclick="scrollToForm()" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300">
@@ -233,6 +259,22 @@
         </div>
     </div>
 
+    <!-- Payment Assurance Banner -->
+    <div class="bg-green-600 text-white text-center py-4 px-4">
+        <div class="max-w-3xl mx-auto">
+            <h3 class="text-2xl font-bold mb-2">BAYAR DI TEMPAT</h3>
+            <p class="text-lg">Cek dan puas dengan barang terlebih dahulu sebelum membayar</p>
+            <div class="mt-3 flex justify-center space-x-2">
+                <div class="bg-white text-green-600 px-3 py-1 rounded-full font-bold text-sm">
+                    <i class="fas fa-check-circle mr-1"></i> Aman
+                </div>
+                <div class="bg-white text-green-600 px-3 py-1 rounded-full font-bold text-sm">
+                    <i class="fas fa-shield-alt mr-1"></i> Terpercaya
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Order Form Section -->
     <div id="order-form" class="px-4 py-6 bg-gray-50">
         <h2 class="text-2xl font-bold text-center mb-6">Pesan Sekarang</h2>
@@ -243,14 +285,6 @@
                     <p class="text-gray-600">Tidur Nyenyak, Bangun Tanpa Pegal</p>
                 </div>
                 <div class="text-teal-500 font-bold text-xl">Rp190.000</div>
-            </div>
-            
-            <div class="mb-4 p-3 bg-yellow-50 rounded-lg border border-yellow-200 flex items-start">
-                <i class="fas fa-gift text-yellow-500 mt-1 mr-2"></i>
-                <div>
-                    <p class="font-medium text-yellow-700">Promo Hari Ini!</p>
-                    <p class="text-sm text-yellow-600">Gratis Ongkir + Garansi 7 Hari</p>
-                </div>
             </div>
             
             <!-- OrderOnline Embed Code - v8.0.4 -->
